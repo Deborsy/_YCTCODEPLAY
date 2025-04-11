@@ -1,0 +1,135 @@
+.profileContainer {
+  background-color: #121212;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+}
+
+.profileHeader {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #333;
+}
+
+.profileHeader h2 {
+  color: #ffeb3b;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.formSection {
+  margin-top: 20px;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  display: block;
+  color: #ddd;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.inputGroup input:focus {
+  border-color: #8bc34a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(139, 195, 74, 0.2);
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.cancelButton,
+.saveButton {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.cancelButton {
+  background-color: #555;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.cancelButton:hover {
+  opacity: 0.8;
+}
+
+.saveButton {
+  background-color: #8bc34a;
+  color: #121212;
+  font-weight: bold;
+}
+
+.saveButton:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.saveButton:disabled {
+  background-color: #777;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.completedChallengesSection {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #333;
+}
+
+.completedChallengesSection h3 {
+  color: #ffeb3b;
+  font-size: 1.35rem;
+  margin-bottom: 15px;
+}
+
+.completedChallengesList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.completedChallengeItem {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completedChallengeItem:last-child {
+  margin-bottom: 0;
+}
+
+.error {
+  color: #ff6f61;
+  margin-top: 10px;
+}

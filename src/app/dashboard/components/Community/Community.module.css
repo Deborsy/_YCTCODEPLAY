@@ -1,0 +1,17 @@
+.container{
+    padding: 0 4rem;
+}
+a.link{
+    display: flex;
+    align-items: center;
+    background: green;
+    width: 9rem;
+    padding: 0.5rem 1rem;
+    transition: transform .3s ease-in-out;
+}
+a.link:hover{
+    transform: translateY(-5px);
+}
+a.link span{
+    margin-left: .5rem;
+}

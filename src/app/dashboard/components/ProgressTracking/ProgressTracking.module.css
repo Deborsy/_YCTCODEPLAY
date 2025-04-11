@@ -1,0 +1,49 @@
+.container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 1000px;
+    padding: 0 3rem; 
+    color: #edf2f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #facc15;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+.chartContainer {
+    display: inline-block;
+    width: calc(50% - 1rem);
+    max-width: 900px; 
+    margin-bottom: 2rem; 
+    background-color: #2d3748;
+    border-radius: 0.5rem; 
+    padding: 1.5rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); 
+}
+
+.chartContainer:first-of-type {
+    margin-right: 1rem; 
+}
+
+.error {
+    color: #e53e3e;
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.loading {
+    color: #a0aec0;
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+    font-size: 1.1rem;
+}
